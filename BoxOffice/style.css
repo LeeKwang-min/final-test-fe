@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  font-family: "Roboto";
+}
+
+section {
+  width: 100%;
+  height: calc(100% - 213px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .contentsBox {
+  width: 1060px;
+  height: 970px;
+  background-color: #f2f2f2;
+
+  border: 2px solid #bdbdbd;
+  border-radius: 15px;
+}
+
+section .contentsBox .sectionHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .contentsBox .sectionHeader .title {
+  width: 650px;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+
+  border-bottom: 2px solid #bdbdbd;
+}
+
+section .contentsBox .sectionHeader .list {
+  width: 650px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+section .contentsBox .sectionHeader .list .listItem {
+  margin: 0 30px;
+  color: #828282;
+}
+
+section .contentsBox .sectionHeader .list .clicked {
+  font-weight: 900;
+  color: #000000;
+}
+
+section .contentsBox .sectionMain {
+  width: 1003px;
+  height: 762px;
+  border: 2px solid #bdbdbd;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .contentsBox .sectionMain .itemBox {
+  width: 220px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 11px;
+}
+
+section .contentsBox .sectionMain .itemBox > img {
+  width: 180px;
+  height: 150px;
+  margin-top: 19px;
+}
+
+section .contentsBox .sectionMain .itemBox .title {
+  width: 80%;
+  font-weight: 900;
+  font-size: 16px;
+  align-self: start;
+  margin: 11px 0 11px 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+section .contentsBox .sectionMain .itemBox .itemInfo {
+  width: calc(100% - 40px);
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+section .contentsBox .sectionMain .itemBox .itemInfo > div {
+  display: flex;
+}
+
+section .contentsBox .sectionMain .itemBox .itemInfo .topInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .contentsBox .sectionMain .itemBox .itemInfo .topInfo > div {
+  display: flex;
+}
+
+section .contentsBox .sectionMain .itemBox .itemInfo .topInfo > img {
+  width: 14px;
+  height: 14px;
+}
+
+section .contentsBox .sectionMain .itemBox .itemButton {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid #bdbdbd;
+}
+
+section .contentsBox .sectionMain .itemBox .itemButton div {
+  width: 50%;
+  text-align: center;
+  background-color: #f2f2f2;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+section .contentsBox .sectionMain .itemBox .itemButton .book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-right: 1px solid #bdbdbd;
+  border-bottom-left-radius: 10px;
+}
+
+section .contentsBox .sectionMain .itemBox .itemButton .preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+}
+
+section .contentsBox .sectionMain .itemBox .itemButton .preview > img {
+  width: 13.33px;
+  height: 13.33px;
+}
+
+footer {
+  width: 100%;
+  height: 213px;
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .upperFooter {
+  width: 60%;
+  height: 119px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #c4c4c4;
+}
+
+footer .upperFooter p {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+footer .upperFooter .share {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .upperFooter .share img {
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+}
+
+footer .underFooter {
+  width: 60%;
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .underFooter .footerInfo {
+  display: flex;
+
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+footer .underFooter .companyName {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+
+.subInfo {
+  color: #828282;
+  margin-right: 5px;
+}
