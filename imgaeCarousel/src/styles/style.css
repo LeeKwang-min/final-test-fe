@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 유틸 CSS */
+.none-display {
+  font-size: 1px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -9999px;
+  overflow: hidden;
+}
+
+/* 상단 버튼 */
+.upload-btn {
+  width: 120px;
+  height: 44px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 44px;
+  color: #FFF;
+  background: #2F80ED;
+  border: none;
+  border-radius: 10px;
+  margin: 50px 0 58px 50px; 
+}
+
+/* 이미지 캐로셀 */
+.image-carousel-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgae-control-btn {
+  width: 100px;
+  height: 42px;
+  border: 3px solid #828282;
+  border-radius: 36.5px;
+  background-color: #FFF;
+  color: #828282;
+}
+
+.overflow-image-container {
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 163px;
+  height: 163px;
+}
+
+.carousel-image img {
+  width: 163px;
+  height: 163px;
+}
